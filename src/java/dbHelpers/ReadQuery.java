@@ -50,7 +50,7 @@ public class ReadQuery {
     public void doRead(){
         
         try {
-            String query = "Select * from friends";
+            String query = "Select * from actors";
             
             PreparedStatement ps = conn.prepareStatement(query);
             this.results = ps.executeQuery();
